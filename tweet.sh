@@ -27,7 +27,7 @@
     MAC_USER=pr
     MAC_HOME=/Users/$MAC_USER/work/code
 
-    CODE=pureausten
+    CODE=jfkspoken
     if [ "$IS_PROD" = "$TRUE" ]; then
         CODE_PATH=$LIN_HOME/$CODE
     else

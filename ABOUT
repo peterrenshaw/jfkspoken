@@ -1,0 +1,61 @@
+                 ___           ___     
+    ___         /\__\         /|  |    
+   /\__\       /:/ _/_       |:|  |    
+  /:/__/      /:/ /\__\      |:|  |    
+ /::\  \     /:/ /:/  /    __|:|  |    
+ \/\:\  \   /:/_/:/  /    /\ |:|__|____
+  ~~\:\  \  \:\/:/  /     \:\/:::::/__/
+     \:\__\  \::/__/       \::/~~/~    
+     /:/  /   \:\  \        \:\~~\     
+    /:/  /     \:\__\        \:\__\    
+    \/__/       \/__/         \/__/    
+      ___           ___         ___           ___           ___           ___     
+     /\__\         /\  \       /\  \         /|  |         /\__\         /\  \    
+    /:/ _/_       /::\  \     /::\  \       |:|  |        /:/ _/_        \:\  \   
+   /:/ /\  \     /:/\:\__\   /:/\:\  \      |:|  |       /:/ /\__\        \:\  \  
+  /:/ /::\  \   /:/ /:/  /  /:/  \:\  \   __|:|  |      /:/ /:/ _/_   _____\:\  \ 
+ /:/_/:/\:\__\ /:/_/:/  /  /:/__/ \:\__\ /\ |:|__|____ /:/_/:/ /\__\ /::::::::\__\
+ \:\/:/ /:/  / \:\/:/  /   \:\  \ /:/  / \:\/:::::/__/ \:\/:/ /:/  / \:\~~\~~\/__/
+  \::/ /:/  /   \::/__/     \:\  /:/  /   \::/~~/~      \::/_/:/  /   \:\  \      
+   \/_/:/  /     \:\  \      \:\/:/  /     \:\~~\        \:\/:/  /     \:\  \     
+     /:/  /       \:\__\      \::/  /       \:\__\        \::/  /       \:\__\    
+     \/__/         \/__/       \/__/         \/__/         \/__/         \/__/    
+
+
+A tool to tweet speeches, of the late John Fitzgerald Kennedy, line by line, 
+given from 1942 - 1963.
+
+
+
+* Filetree
+    ABOUT
+    BUGS
+    TODO
+    # ---- TWEETER ----
+    tweet.sh         # instructions (eventer.py) called from cron
+    eventer.py       # send a sentence to twitter
+    crontab.cron     # crontab to run/call tweet.sh
+    
+  
+    # ---- SHREDDER ----
+    shred.sh         # shred a file into sentences
+    qa.py            # main call program
+
+    # ---- TOOLS ----
+    config.py        # options setting for QA
+    parse.py         # text parsing tools
+    punctuation.py   # punctuation parsing tools
+    token.py         # tokenising tools
+
+    # ---- TWEEPY TOOLS ---- 
+    auth.py          # tweepy authourising
+    secrets.py       # **** DO NOT SHOW ****
+
+    # ---- DIRECTORIES ----
+    source/          # source file directory
+    dest/            # destination directory
+
+
+2017AUG17 a simple tool to shred books and make them suitable for twitter
+
+

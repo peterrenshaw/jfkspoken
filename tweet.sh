@@ -3,7 +3,8 @@
 
 #=======
 # name: tweet.py
-# date: 2017AUG14
+# date: 2018NOV20
+#       2017AUG14
 # prog: pr
 # desc: called via crontab.cron
 #       calls eventer.py which calculates

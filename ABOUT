@@ -22,9 +22,8 @@
      \/__/         \/__/       \/__/         \/__/         \/__/         \/__/    
 
 
-A tool to tweet speeches, of the late John Fitzgerald Kennedy, line by line, 
-given from 1942 - 1963.
-
+![JFK Spoken](https://github.com/peterrenshaw/jfkspoken/blob/master/img/jfk-speaking-0.jpeg)
+A tool to tweet speeches, of the late John Fitzgerald Kennedy, line by line, given from 1942 - 1963.
 
 
 * Filetree
@@ -56,6 +55,6 @@ given from 1942 - 1963.
     dest/            # destination directory
 
 
-2017AUG17 a simple tool to shred books and make them suitable for twitter
+2017AUG17 a simple tool to shred files to make them suitable for tweeting on twitter.
 
 

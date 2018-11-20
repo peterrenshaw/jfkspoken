@@ -7,6 +7,8 @@ A tool to tweet speeches, of the late John Fitzgerald Kennedy, line by line, giv
 
  
 2018NOV20
+* corrections to <source/1963NOV21-Houston.txt>
+
 * ABOUT and README
 
 * added img/<images for header on site>

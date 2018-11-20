@@ -2,7 +2,7 @@
 ![JFK Spoken](https://github.com/peterrenshaw/jfkspoken/blob/master/img/jfk-speaking-0.jpeg)
 
 
-A tool to tweet speeches, of the late John Fitzgerald Kennedy, line by line, given from 1942 - 1963.
+A tool to tweet speeches, of the late John Fitzgerald Kennedy, line by line, from 1942 - 1963.
 
 
 

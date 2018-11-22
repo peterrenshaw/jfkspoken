@@ -7,6 +7,10 @@ A tool to tweet speeches, of the late John Fitzgerald Kennedy, line by line, fro
 
  
 2018NOV20
+* testing cron working, 30 min interval.
+
+* added 1963NOV21.txt
+
 * add <source/1963NOV21-SanAntonio.txt>
 
 * corrections to <source/1963NOV21-Houston.txt>

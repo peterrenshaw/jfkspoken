@@ -4,7 +4,10 @@
 
 A tool to tweet speeches, of the late John Fitzgerald Kennedy, line by line, from 1942 - 1963.
 
+2018NOV28
+* added conf/YYYYMMMDD packages that describe a speech.
 
+* updated DETAILS.md
  
 2018NOV20
 * testing cron working, 30 min interval.

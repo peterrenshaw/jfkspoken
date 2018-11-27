@@ -9,12 +9,14 @@ HOWTO
 2018NOV12
 * steps to build
 
-    a) download source file to source/ dir
+    a) download source file to source/ directory.
 
 
-    b) prepare text from source to destination
+    b) prepare text from source to destination:
 
-        python3 prepare.py -i source/northangerabbey.txt -o dest/ona.txt -d 
+       WARNING: The filenames are used as an example only. Supply your own.
+
+        python3 prepare.py -i source/source-filename.txt -o dest/oDest-filename.txt -d 
 
        grab the source file, parse the output and save to the destination file
 
@@ -23,12 +25,14 @@ HOWTO
           name used in -f option in the previous step.
        -d show the output
 
-    c) build the config.json file
+    c) build the config.json file:
 
-        python3 config.py -f 'dest/ona.txt' -l 'Northanger Abbey' -s config.json
+       WARNING: The filenames and descriptions are used as an example only. Supply your own.
+
+       python3 config.py -f 'dest/oDest-filename.txt' -l 'Suitable description of config file' -s config.json
 
        -f supply path and filename to future destination file
-       -l supply the label of the file converting
+       -l supply the label of the file converting (displayed in log.txt and status.json)
        -s name of output config file to be used
 
 
@@ -37,7 +41,7 @@ HOWTO
      a) require the following files to run northangerabbey.txt (as example)
 
         * config.json
-        * dest/ona.txt 
+        * dest/oDest-filename.txt 
         
      b) delete the following files:
  

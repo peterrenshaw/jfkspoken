@@ -1,0 +1,13 @@
+
+#=======
+# name: reboot.cron
+# date: 2018NOV20
+#       2017AUG16
+# prog: pr
+# desc: reboot script for jfkspoken
+#       run at root level cron to reboot
+#       when reboot occurs. This ensures
+#       jfkspoken continues running
+#=======
+
+/bin/sh /home/pi/code/jfkspoken/cron.sh &
